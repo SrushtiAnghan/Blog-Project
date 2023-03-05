@@ -11,15 +11,15 @@
 </head>
 
 <body>
-    <div class="Main-Register">
-        <div class="Register-container">
-            <div>
-                <img class="images-001" src="images/images1.svg" alt="">
-                <h1 class="register-hading">Register</h1>
-                <p class="register-phg1">Please add your details to register with us</p>
-            </div>
+    <form id="form" method="get" onsubmit="register()">
+        <div class="Main-Register">
+            <div class="Register-container">
+                <div>
+                    <h1 class="register-hading">Register</h1>
+                    <p class="register-phg1">Please add your details to register with us</p>
+                </div>
 
-            <form id="form">
+
                 <div class="login-main-name">
                     <div class="login-text001">
                         <input class="text-only" id="first_name" type="text" placeholder="First name" required>
@@ -36,14 +36,15 @@
                     <input class="sr-only" id="password" type="password" placeholder="Password" required>
                 </div>
                 <div class="Register">
-                    <button onclick="register()">Register</button>
+                    <button>SUBMIT</button>
                 </div>
                 <div class="last-login">
                     <p>Or already have an account <a href="/Login.html">Login</a></p>
                 </div>
-            </form>
+
+            </div>
         </div>
-    </div>
+    </form>
 </body>
 
 </html>

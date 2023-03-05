@@ -1,4 +1,4 @@
-.Main-Register{
+.Main-Register {
     padding-top: 3rem;
     padding-bottom: 3rem;
     justify-content: center;
@@ -7,46 +7,54 @@
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.Register-container{
+
+.Register-container {
     max-width: 28rem;
     width: 100%;
 
 }
-.images-001{
+
+.images-001 {
     width: 50px;
     height: 50px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-.register-hading{
+
+.register-hading {
     margin-top: 25px;
     text-align: center;
     font-size: 30px;
     line-height: 35px;
 }
-.register-phg1{
+
+.register-phg1 {
     margin-top: 25px;
     text-align: center;
     color: rgb(17, 24, 39);
 
 }
-.login-main-name{
+
+.login-main-name {
     width: 100%;
     display: flex;
     margin-bottom: 1rem;
 }
-.login-text001{
+
+.login-text001 {
     width: 100%;
     display: flex;
     margin-right: 0.5rem;
 }
-.login-text002{
+
+.login-text002 {
     width: 100%;
     display: flex;
     margin-left: 0.5rem;
 }
-.text-only{
+
+.text-only {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
     padding-top: 0.5rem;
@@ -60,7 +68,7 @@
     text-align: center;
 }
 
-.sr-only{
+.sr-only {
     margin-bottom: 1rem;
     width: 100%;
     border-width: 1px;
@@ -72,30 +80,29 @@
     text-align: center;
 
 }
-.Register{
+
+.Register {
     padding-top: 8px;
     padding-bottom: 8px;
-    background-color: rgb(79 70 229/var(--tw-bg-opacity));
-    --tw-bg-opacity: 1;
+    background-color: lightblue;
+    /* background-color: rgb(79 70 229/var(--tw-bg-opacity));
+    --tw-bg-opacity: 1; */
     border-radius: 6px;
     justify-content: center;
     text-align: center;
     text-decoration: none;
     margin-top: 15px;
 }
-button{
+
+button {
     border: none;
     background-color: transparent;
-    color: white;
+    color: black;
 }
 
-.last-login{
+.last-login {
     text-align: center;
     font-size: .875rem;
     line-height: 1.25rem;
-    margin-top: 15px; 
-} 
-
-
-
-
+    margin-top: 15px;
+}

@@ -1,11 +1,6 @@
-
 function register() {
-    alert('Your registration is successful');
-
-    // firstname = document.getElementById("first_name").value || "";
-    // lastname = document.getElementById("last_name").value || "";
-    email = document.getElementById("email").value || "";
-    password = document.getElementById("password").value || "";
+  var  email = document.getElementById("email").value || "";
+  var  password = document.getElementById("password").value || "";
 
     let name;
 
@@ -16,20 +11,31 @@ function register() {
     } else {
         name = JSON.parse(localStorageData)
     }
-    name.push(
-        {
-            // firstname: firstname,
-            // lastname: lastname,
-            email: email,
-            password: password
-        }
+    const emailExists = name.find((user) => user.email === email)
+    console.log(emailExists);
+    if (emailExists) {
+        alert(
+            "Email already exists"
+        );
+    }else(
+        name.push(
+            {
+                email: email,
+                password: password
+            }
+        )
     )
+   
     window.localStorage.setItem('register', JSON.stringify(name));
     console.log("localStorageData", localStorageData);
 
 
+    window.open('./Blog-New.html');
+
     document.getElementById("email").value = ""
     document.getElementById("password").value = ""
+    document.getElementById("first_name").value = ""
+    document.getElementById("last_name").value = ""
 
 }
 

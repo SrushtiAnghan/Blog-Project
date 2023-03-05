@@ -5,32 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Blog.css">
-    <script src="Blog.js"></script>
-    <title>Blog</title>
+    <link rel="stylesheet" href="Edit.css">
+
+    <title>Edit</title>
 </head>
 
 <body>
-    <div class="main_blog">
+    <div class="main_blog" method="get">
         <div class="blog_container">
             <div>
                 <img class="blog_images" src="images/images2.png" alt="">
             </div>
             <br><br>
-            <form id="form" onsubmit="blog(event)">
+            <form id="form">
                 <div>
-                    <input type="text" id="title" class="text" placeholder="Write Title" required>
+                    <input type="text" id="titleEdit" class="text" placeholder="Write Title" required>
                 </div>
                 <div>
-                    <textarea name="" id="description" class="text" cols="30" rows="10"
+                    <textarea name="" id="descriptionEdit" class="text" cols="30" rows="10"
                         placeholder="Write Here Description" required></textarea>
                 </div>
                 <div>
-                    <button type="submit" id="post" class="text">Add New</button>
+                    <button type="submit" id="post" class="text" onclick="editbutton();return false">SAVE</button>
                 </div>
             </form>
         </div>
     </div>
+
 </body>
+<script src="Edit.js"></script>
 
 </html>

@@ -1,0 +1,87 @@
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+
+.welcome {
+    align-items: center;
+    text-align: center;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+.blog_world {
+    align-items: center;
+    text-align: center;
+    letter-spacing: 15px;
+}
+
+#creat_button {
+    width: 182.86px;
+    height: 65px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#login_button {
+    width: 182.86px;
+    height: 65px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.login_button01 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mini_blogg_creat{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    display: flex;
+}
+.mini_new_blog_des{
+    max-width: 28rem;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 6px;
+}
+.blogg_text_01{
+    height: 36px;
+    width: 444px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+.blogg_text_02{
+    height: 185px;
+    width: 444px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+.buttone_blogg{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.mini_button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
